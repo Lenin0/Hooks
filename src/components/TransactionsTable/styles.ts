@@ -27,10 +27,10 @@ export const Container = styled.div`
 
             }
 
-            &.deposito{
+            &.deposit{
                 color: var(--green);
             }
-            &.retirada{
+            &.withdraw{
                 color: var(--red);
             }
         }
