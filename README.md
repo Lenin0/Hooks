@@ -1,103 +1,28 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Projeto</title>
-    <style>
-      /* Estilo geral */
-      body {
-        font-family: Arial, sans-serif;
-        line-height: 1.5;
-        margin: 0;
-        padding: 0;
-      }
-      h1, h2, h3, h4, h5, h6 {
-        margin-top: 0;
-      }
-      /* Estilo do cabeçalho */
-      header {
-        background-color: #3498db;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-      }
-      header h1 {
-        font-size: 48px;
-        margin: 0;
-      }
-      header p {
-        font-size: 24px;
-        margin-top: 10px;
-      }
-      /* Estilo do conteúdo */
-      main {
-        margin: 50px auto;
-        max-width: 800px;
-        padding: 0 20px;
-      }
-      main h2 {
-        font-size: 36px;
-        margin-top: 50px;
-      }
-      main ul, main ol {
-        list-style: none;
-        margin: 20px 0;
-        padding: 0;
-      }
-      main li {
-        margin-bottom: 10px;
-      }
-      main table {
-        border-collapse: collapse;
-        margin: 20px 0;
-        width: 100%;
-      }
-      main th, main td {
-        border: 1px solid #ccc;
-        padding: 8px;
-        text-align: left;
-      }
-      main th {
-        background-color: #f2f2f2;
-        font-weight: bold;
-      }
-      main pre {
-        background-color: #f2f2f2;
-        border: 1px solid #ccc;
-        padding: 10px;
-        white-space: pre-wrap;
-      }
-      main code {
-        background-color: #f2f2f2;
-        border-radius: 3px;
-        font-size: 14px;
-        padding: 3px 6px;
-      }
-      /* Estilo do rodapé */
-      footer {
-        background-color: #ccc;
-        color: #333;
-        padding: 10px;
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Meu Projeto</h1>
-      <p>Um projeto TypeScript para registro de entrada e saída de dinheiro</p>
-    </header>
-    <main>
-      <h2>Funcionalidades</h2>
-      <ul>
-        <li>Adicionar novos itens de entrada ou saída</li>
-        <li>Visualizar uma lista de todos os itens de entrada e saída</li>
-        <li>Visualizar o saldo total de todos os itens de entrada e saída</li>
-      </ul>
+<h1>DT Money </h1>
+<p>A TypeScript project for tracking income and expenses</p>
+<h2>Features</h2>
+<ul>
+  <li>Add new transactions with categories</li>
+  <li>View a list of all income and expense transactions</li>
+  <li>View the total balance of all income and expense transactions</li>
+</ul>
+<h2>Installation</h2>
+<ol>
+  <li>Clone the repository</li>
+  <li>Run <code>npm install</code> to install the dependencies</li>
+  <li>Run <code>npm run start</code> to start the local server</li>
+  <li>Access <a href="http://localhost:3000">http://localhost:3000</a> in your browser to use the application</li>
+</ol>
+<h2>Local API</h2>
+<p>The application uses a local API, created with Mirage.js, to simulate the backend. You can find the API definition in <code>src/server.js</code>.</p>
+<h2>Technologies Used</h2>
+<ul>
+  <li>TypeScript</li>
+  <li>React</li>
+  <li>Mirage.js</li>
+</ul>
+<footer>
+  <p>Copyright © 2023</p>
+</footer>
 
-      <h2>Instalação</h2>
-      <ol>
-        <li>Clone o repositório</li>
-        <li>Execute <code>npm install</code> para instalar as dependências</li>
-        <li>Execute <code>npm
+
