@@ -11,19 +11,19 @@ git clone https://github.com/Lenin0/Hooks.git
 
 2. Install the dependencies:
 
-npm install
+   npm install
 
 
 4. Build the project:
 
-npm run build
+   npm run build
 
 
 ## Usage
 
 1. Open the application in a web browser:
 
-http://localhost:3000
+   http://localhost:3000
 
 
 2. Use the navigation menu to access the desired feature:
